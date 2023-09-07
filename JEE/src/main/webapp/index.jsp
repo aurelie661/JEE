@@ -11,11 +11,12 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <ul>
-  <li>
+
+  <li><a href="add">Mon d'ajout "Cat"</a></li>
   <li><a href="monServlet-html">Mon servlet html</a></li>
   <li><a href="monServlet">Mon servlet</a></li>
     <b> Date du jour : </b> <%= LocalDate.now() %>
-  </li>
+
   <% for (int i = 0; i < 5; i++) {%>
   <li>Item N° <%=i %></li>
   <% }%>
